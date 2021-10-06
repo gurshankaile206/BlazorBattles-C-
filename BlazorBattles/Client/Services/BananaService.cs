@@ -14,6 +14,7 @@ namespace BlazorBattles.Client.Services
         public void EatBananas(int amount)
         {
             Bananas -= amount;
+            BananasChanged();
 
         }
 
