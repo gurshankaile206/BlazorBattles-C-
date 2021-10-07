@@ -13,7 +13,7 @@ namespace BlazorBattles.Shared
 
         public string Title { get; set; }
 
-        public string Attack { get; set; }
+        public int Attack { get; set; }
 
         public int Defense { get; set;  }
 
